@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -c -i -e ".*;tek.;${1}"
+cut -d ';' -f 3 | grep -c -i "{1}"
